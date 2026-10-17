@@ -5,21 +5,110 @@
 #
 # Fetch: python -m lab_tools.fetch_urn_acts
 # Rate limit: ~2.5s tra richieste (IPZS)
+# Copertura: top 100 per # DDL che li puntano (issue #68)
 
-# === Leggi fondamentali non in collezioni ===
+# === Leggi fondamentali ===
 urn:nir:stato:legge:1990-08-07;241  | Accesso agli atti amministrativi
 urn:nir:stato:legge:1978-05-22;194  | Interruzione volontaria gravidanza
 
-# === Top leggi ordinarie mancanti dal grafo (per # impugna Corte) ===
-urn:nir:stato:legge:2014-04-07;56   | Delocalizzazioni (1122 impugna)
-urn:nir:stato:legge:1991-10-05;317  | Formazione posto lavoro (999 impugna)
-urn:nir:stato:legge:1991-12-06;394  | Inquinamento atmosferico (699 impugna)
-urn:nir:stato:legge:2009-07-15;94   | Ordine pubblico (594 impugna)
-urn:nir:stato:legge:1975-07-26;354  | Ordinamento penitenziario (469 impugna)
-urn:nir:stato:legge:1988-08-23;400  | Procedimento bilancio (474 impugna)
-urn:nir:stato:legge:1994-02-11;109  | Lavori pubblici (476 impugna)
-urn:nir:stato:legge:2006-02-20;46   | Disposizioni varie (507 impugna)
-
-# === Altre leggi note non in collezioni ===
-urn:nir:stato:legge:2011-03-24;33   | Amministrazione trasparente (FOIA)
-urn:nir:stato:legge:2000-07-31;212  | Patto di stabilità (testo)
+# === Top per # DDL (auto-generated da senato_ddl × legal-graph) ===
+urn:nir:stato:legge:1999-12-16;479 | 5 DDL — 
+urn:nir:stato:legge:2025-09-12;131 | 3 DDL — Disposizioni per lo sviluppo e la valorizzazione delle zone 
+urn:nir:stato:legge:2025-02-19;22 | 3 DDL — Competenze non cognitive
+urn:nir:stato:legge:2025-03-25;46 | 3 DDL — Viaggi nella memoria
+urn:nir:stato:legge:2023-04-21;49 | 3 DDL — Equo compenso
+urn:nir:stato:legge:2024-02-21;16 | 3 DDL — Iniziative per diffondere la conoscenza della tragedia delle
+urn:nir:stato:legge:2025-11-13;177 | 3 DDL — Legge quadro in materia di interporti
+urn:nir:stato:legge:2026-05-15;99 | 3 DDL — Giornata nazionale prevenzione melanoma
+urn:nir:stato:legge:2024-10-28;162 | 3 DDL — Agevolazioni fiscali start-up
+urn:nir:stato:legge:2025-04-15;59 | 3 DDL — Promozione delle manifestazioni in abiti storici
+urn:nir:stato:legge:2026-03-11;34 | 3 DDL — Legge annuale sulle PMI
+urn:nir:stato:legge:2004-12-30;312 | 3 DDL — 
+urn:nir:stato:legge:2006-12-27;298 | 3 DDL — 
+urn:nir:stato:legge:2025-09-23;132 | 3 DDL — Intelligenza artificiale
+urn:nir:stato:legge:2016-06-16;115 | 2 DDL — reato di negazionismo
+urn:nir:stato:legge:2015-12-28;220 | 2 DDL — 
+urn:nir:stato:legge:2015-12-28;209 | 2 DDL — 
+urn:nir:stato:legge:2015-12-01;194 | 2 DDL — Biodiversità agraria e alimentare
+urn:nir:stato:legge:2015-10-27;175 | 2 DDL — commissione di garanzia statuti e rendiconti partiti politic
+urn:nir:stato:legge:2016-08-19;167 | 2 DDL — screening neonatale
+urn:nir:stato:legge:2015-10-19;173 | 2 DDL — Adozione dei minori
+urn:nir:stato:legge:2003-11-06;302 | 2 DDL — 
+urn:nir:stato:legge:2003-10-23;293 | 2 DDL — 
+urn:nir:stato:legge:2003-08-11;228 | 2 DDL — 
+urn:nir:stato:legge:2015-10-02;171 | 2 DDL — 
+urn:nir:stato:legge:2015-08-18;134 | 2 DDL — autismo
+urn:nir:stato:legge:2016-10-29;199 | 2 DDL — contrasto sfruttamento lavoro in agricoltura
+urn:nir:stato:legge:2015-08-07;124 | 2 DDL — riorganizzazione delle amministrazioni pubbliche
+urn:nir:stato:legge:2016-11-14;220 | 2 DDL — Disciplina del cinema, dell'audiovisivo e dello spettacolo
+urn:nir:stato:legge:2015-05-22;68 | 2 DDL — delitti contro l'ambiente
+urn:nir:stato:legge:2016-12-12;238 | 2 DDL — produzione vitivinicola
+urn:nir:stato:legge:2016-11-23;226 | 2 DDL — Interventi in favore delle imprese di Venezia e Chioggia
+urn:nir:stato:legge:2016-12-11;236 | 2 DDL — Traffico organi destinati al trapianto
+urn:nir:stato:legge:2016-12-02;242 | 2 DDL — filiera canapa
+urn:nir:stato:legge:2016-10-12;196 | 2 DDL — 
+urn:nir:stato:legge:2004-11-22;278 | 2 DDL — 
+urn:nir:stato:legge:2004-08-02;205 | 2 DDL — 
+urn:nir:stato:legge:2004-07-30;208 | 2 DDL — 
+urn:nir:stato:legge:2004-07-20;215 | 2 DDL — 
+urn:nir:stato:legge:2004-07-14;178 | 2 DDL — 
+urn:nir:stato:legge:2004-07-02;165 | 2 DDL — 
+urn:nir:stato:legge:2004-06-17;155 | 2 DDL — 
+urn:nir:stato:legge:2013-10-04;117 | 2 DDL — 
+urn:nir:stato:legge:2013-10-04;116 | 2 DDL — 
+urn:nir:stato:legge:2013-07-19;87 | 2 DDL — commissione antimafia
+urn:nir:stato:legge:2013-01-14;7 | 2 DDL — 
+urn:nir:stato:legge:2015-05-07;62 | 2 DDL — Regime fiscale speciale Italia-Taiwan
+urn:nir:stato:legge:2015-05-06;52 | 2 DDL — legge elettorale Camera dei deputati
+urn:nir:stato:legge:2015-02-23;19 | 2 DDL — Divieto di benefici ai condannati ex 416-ter
+urn:nir:stato:legge:2016-07-11;133 | 2 DDL — Introduzione reato di depistaggio
+urn:nir:stato:legge:2004-06-11;146 | 2 DDL — 
+urn:nir:stato:legge:2004-06-11;145 | 2 DDL — 
+urn:nir:stato:legge:2004-03-30;92 | 2 DDL — 
+urn:nir:stato:legge:2004-03-27;78 | 2 DDL — 
+urn:nir:stato:legge:2004-02-19;40 | 2 DDL — 
+urn:nir:stato:legge:2004-02-06;36 | 2 DDL — 
+urn:nir:stato:legge:2003-12-24;378 | 2 DDL — 
+urn:nir:stato:legge:2014-12-10;183 | 2 DDL — Delega lavoro
+urn:nir:stato:legge:2014-10-10;147 | 2 DDL — Deroghe accesso trattamento pensionistico
+urn:nir:stato:legge:2014-10-03;145 | 2 DDL — 
+urn:nir:stato:legge:2014-04-28;67 | 2 DDL — Pene detentive non carcerarie e messa alla prova
+urn:nir:stato:legge:2014-04-17;62 | 2 DDL — 
+urn:nir:stato:legge:2016-06-28;132 | 2 DDL — 
+urn:nir:stato:legge:2016-06-23;137 | 2 DDL — Ratifica Convenzione Italia-Santa Sede in materia fiscale
+urn:nir:stato:legge:2004-06-11;147 | 2 DDL — 
+urn:nir:stato:legge:2017-07-12;113 | 2 DDL — Elezione consiglieri ordini forensi
+urn:nir:stato:legge:2017-07-12;107 | 2 DDL — 
+urn:nir:stato:legge:2017-07-03;105 | 2 DDL — Contrasto intimidazioni amministratori locali
+urn:nir:stato:legge:2017-06-23;103 | 2 DDL — Modifiche al c.p., al c.p.p. e all'ordinamento penitenziario
+urn:nir:stato:legge:2017-05-22;81 | 2 DDL — Lavoro autonomo
+urn:nir:stato:legge:2017-03-08;44 | 2 DDL — Patrimonio culturale immateriale
+urn:nir:stato:legge:2017-03-08;20 | 2 DDL — giornata memoria vittime delle mafie
+urn:nir:stato:legge:2002-12-12;273 | 2 DDL — 
+urn:nir:stato:legge:2002-11-11;258 | 2 DDL — 
+urn:nir:stato:legge:2001-03-29;134 | 2 DDL — 
+urn:nir:stato:legge:2001-03-27;97 | 2 DDL — 
+urn:nir:stato:legge:2001-03-27;133 | 2 DDL — 
+urn:nir:stato:legge:2002-05-21;99 | 2 DDL — 
+urn:nir:stato:legge:2002-03-15;37 | 2 DDL — 
+urn:nir:stato:legge:2016-07-28;154 | 2 DDL — competitività settore agricolo
+urn:nir:stato:legge:2001-12-28;449 | 2 DDL — 
+urn:nir:stato:legge:2001-11-28;426 | 2 DDL — 
+urn:nir:stato:legge:2018-09-28;110 | 2 DDL — 
+urn:nir:stato:legge:2018-08-07;99 | 2 DDL — Commissione antimafia
+urn:nir:stato:legge:2018-01-11;8 | 2 DDL — 
+urn:nir:stato:legge:2018-01-11;4 | 2 DDL — orfani di crimini domestici
+urn:nir:stato:legge:2018-01-11;2 | 2 DDL — mobilità ciclistica
+urn:nir:stato:legge:2017-12-29;222 | 2 DDL — Modifiche circoscrizioni tribunali di Perugia  e di Terni
+urn:nir:stato:legge:2017-12-22;219 | 2 DDL — 
+urn:nir:stato:legge:2017-12-20;212 | 2 DDL — Istituzione della Giornata dei Giusti dell'umanità
+urn:nir:stato:legge:2019-10-01;109 | 2 DDL — 
+urn:nir:stato:legge:2019-08-08;86 | 2 DDL — 
+urn:nir:stato:legge:2019-07-24;73 | 2 DDL — patente nautica
+urn:nir:stato:legge:2019-07-19;69 | 2 DDL — TUTELA VITTIME VIOLENZA DI GENERE
+urn:nir:stato:legge:2002-01-08;2 | 2 DDL — 
+urn:nir:stato:legge:2016-08-19;166 | 2 DDL — Sprechi alimentari
+urn:nir:stato:legge:2016-08-12;164 | 2 DDL — 
+urn:nir:stato:legge:2016-07-28;153 | 2 DDL — 
+urn:nir:stato:legge:2003-07-29;229 | 2 DDL — 
+urn:nir:stato:legge:2003-07-18;186 | 2 DDL — 
